@@ -1,0 +1,62 @@
+%implements "chartSource" "C"
+%function ChartConfig(block, system) void
+  %createrecord chartConfiguration { ...
+          executeAtInitialization  0 ...
+  }
+  %return chartConfiguration
+%endfunction
+%function ChartDataMap(block, system) void
+  %createrecord ChartDataElements {\
+    NumChartData   6 \
+    ChartDataDefaults {\
+      RecordType   "ChartData"\
+      Dimensions   []\
+      IsTestPoint  0\
+    }\
+    ChartData {\
+      Name         "sfEvent"\
+      Description  "ActiveChartEvent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "doneDoubleBufferReInit"\
+      Description  "DoubleBufferInitCheck"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  ""\
+    }\
+    ChartData {\
+      Name         "YBuffer"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "AudioSmartSpeakerOnJetsonNano:346:83-90"\
+      Dimensions   [10]\
+    }\
+    ChartData {\
+      Name         "YBuffer_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "AudioSmartSpeakerOnJetsonNano:346:83-90"\
+    }\
+    ChartData {\
+      Name         "probBuffer"\
+      Description  "EmlPersistent"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "AudioSmartSpeakerOnJetsonNano:346:91-101"\
+      Dimensions   [12,5]\
+    }\
+    ChartData {\
+      Name         "probBuffer_not_empty"\
+      Description  "EmlPersistentSentinel"\
+      SFName       ""\
+      Path         ""\
+      SrcLocation  "AudioSmartSpeakerOnJetsonNano:346:91-101"\
+    }\
+  }
+  %return ChartDataElements
+%endfunction

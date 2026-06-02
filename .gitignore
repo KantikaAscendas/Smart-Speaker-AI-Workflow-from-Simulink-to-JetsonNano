@@ -1,0 +1,16 @@
+﻿# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.tmp
+
+# MATLAB autosave/crash files
+*.asv
+*.m~
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log

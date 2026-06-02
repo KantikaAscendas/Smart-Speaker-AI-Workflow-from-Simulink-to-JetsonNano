@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2025b http://schema.mathworks.com/mf0/slexec_mm_sto/R2025a_202404151030 http://schema.mathworks.com/mf0/sltp_mm/R2025b_202504071000">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="82df163c-4226-4780-a4f1-4e80168c8ce5">
+    <JITEngines>s0oHM7TG1U2K7EqOll75ktF</JITEngines>
+    <JITEngines>s1N8qGLvoBfY3YZ1s3kKkJD</JITEngines>
+    <JITEngines>sFivdhAB52NZyfmbEF59fOH</JITEngines>
+    <JITEngines>sSAptIYFfd1vWmWuMeIwTNE</JITEngines>
+    <JITEngines>saIqLfeNgoDJUu4payq7fUC</JITEngines>
+    <JITEngines>spSpYZ5YQvv3nyy7s8foliF</JITEngines>
+    <calibrationData type="ModelRefInfoRepo.CalibrationData" uuid="1e96e4bd-7598-44b4-8fb0-17fb0610776d">
+      <InternalData>[{&quot;Name&quot;:&quot;&quot;,&quot;Profile&quot;:&quot;&quot;}]</InternalData>
+      <ModelName>AudioSmartSpeakerOnJetsonNano</ModelName>
+    </calibrationData>
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="fc298a42-d5f9-4550-84df-e812ca237018">
+      <modelName>AudioSmartSpeakerOnJetsonNano</modelName>
+      <modelPath>AudioSmartSpeakerOnJetsonNano</modelPath>
+    </childModelRefInfo>
+    <clockResolutions type="ModelRefInfoRepo.ClockResolutionInfo" uuid="f4aaa9e6-e068-47ba-9b4d-60da2ccc6c15">
+      <rateIdx>1</rateIdx>
+      <resolution>.1</resolution>
+      <source>DeducedFromSampleTime</source>
+    </clockResolutions>
+    <compDerivCacheNeedsReset>false</compDerivCacheNeedsReset>
+    <compZcCacheNeedsReset>false</compZcCacheNeedsReset>
+    <compiledTFinal>inf</compiledTFinal>
+    <dataSourceInfo type="ModelRefInfoRepo.DataSourceInfo" uuid="654bf47e-ad33-4c64-a806-e6c8bd786ff2">
+      <dataSources type="ModelRefInfoRepo.SourceInfo" uuid="98dd8830-9ad5-499c-b9ae-65103da61241">
+        <includeAllSections>true</includeAllSections>
+        <sourceName>base workspace</sourceName>
+        <type>BaseWorkspace</type>
+      </dataSources>
+      <modelName>AudioSmartSpeakerOnJetsonNano</modelName>
+    </dataSourceInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;}</defaultsCMapping>
+    <fastestNoncontSigFeedingDerivPorts>-1.0</fastestNoncontSigFeedingDerivPorts>
+    <fundamentalSampleTimePeriod>.010000000000000002</fundamentalSampleTimePeriod>
+    <globalVariables>frameLengthSpeech</globalVariables>
+    <globalVariables>windowDuration</globalVariables>
+    <hasBlockWithPeriodicDiscreteSampleTime>true</hasBlockWithPeriodicDiscreteSampleTime>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasInlineVariantBlock>true</hasInlineVariantBlock>
+    <hasSignalLogging>true</hasSignalLogging>
+    <hasStatesModifiedInOutputUpdate>true</hasStatesModifiedInOutputUpdate>
+    <isBdInSimModeForSimCodegenVariants>false</isBdInSimModeForSimCodegenVariants>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <needsAbsoluteTime>true</needsAbsoluteTime>
+    <nonTunableVariables>frameLengthSpeech</nonTunableVariables>
+    <numDStateRecs>11</numDStateRecs>
+    <numDStateRecsInMdl>11</numDStateRecsInMdl>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableDStateRecs>11</numLoggableDStateRecs>
+    <numLoggableDStateRecsInMdl>11</numLoggableDStateRecsInMdl>
+    <numLoggableJacobianDStates>13003</numLoggableJacobianDStates>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <nonFcnCallPartitionName>D1</nonFcnCallPartitionName>
+      <period>.010000000000000002</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <needAbsoluteTime>true</needAbsoluteTime>
+      <nonFcnCallPartitionName>D2</nonFcnCallPartitionName>
+      <period>.1</period>
+      <priority>39</priority>
+      <rateIdx>1</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>335</solverStatusFlags>
+    <standaloneEnumInfos type="ModelRefInfoRepo.StandaloneEnumInfo" uuid="ab4630df-cc24-4d9e-9233-e20911d7ba1a">
+      <defaultValue>Silence</defaultValue>
+      <enumName>SpeechCommands</enumName>
+      <labels>Silence</labels>
+      <labels>Background</labels>
+      <labels>Down</labels>
+      <labels>Go</labels>
+      <labels>Left</labels>
+      <labels>No</labels>
+      <labels>Off</labels>
+      <labels>On</labels>
+      <labels>Right</labels>
+      <labels>Stop</labels>
+      <labels>Up</labels>
+      <labels>Yes</labels>
+      <labels>Unknown</labels>
+      <storageType>int32</storageType>
+      <values>0</values>
+      <values>1</values>
+      <values>2</values>
+      <values>3</values>
+      <values>4</values>
+      <values>5</values>
+      <values>6</values>
+      <values>7</values>
+      <values>8</values>
+      <values>9</values>
+      <values>10</values>
+      <values>11</values>
+      <values>12</values>
+    </standaloneEnumInfos>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2025a_202404151030&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;17e94584-6731-4f3a-9986-4ac8a41183f7&quot;&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;identifier&gt;AudioSmartSpeakerOnJetsonNano&lt;/identifier&gt;
+    &lt;clockRegistry type=&quot;sto.ClockRegistry&quot; uuid=&quot;b2e0c038-6633-4bfe-ae55-684916aca488&quot;&gt;
+      &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;ad53d27d-4839-46d5-9996-842b190e7e5b&quot;&gt;
+        &lt;computedFundamentalDiscretePeriod&gt;.010000000000000002&lt;/computedFundamentalDiscretePeriod&gt;
+        &lt;fastestDiscreteRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;54dc809b-8a8b-4672-a762-c5223687f097&quot;/&gt;
+        &lt;isDefaultTimer&gt;true&lt;/isDefaultTimer&gt;
+        &lt;resolution&gt;.010000000000000002&lt;/resolution&gt;
+        &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+        &lt;identifier&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/identifier&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;54dc809b-8a8b-4672-a762-c5223687f097&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;74a66cd6-3357-4d49-a0dd-879114345f2c&quot;&gt;
+            &lt;period&gt;.010000000000000002&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;48b4e7a1-277f-478a-8d0c-e743b53bf63e&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;15c0d111-ae37-4467-9a0f-0c8ecd3b2016&quot;&gt;
+            &lt;period&gt;.1&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;baseRate type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;ba98db5e-d7b4-4655-a9a9-a677e3ead3ea&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;26e23da3-6d14-4c29-8241-d19319b0ce7f&quot;&gt;
+            &lt;period&gt;.010000000000000002&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/baseRate&gt;
+      &lt;/clocks&gt;
+      &lt;timeAdvanceMode&gt;FixedStep&lt;/timeAdvanceMode&gt;
+    &lt;/clockRegistry&gt;
+    &lt;taskRegistry type=&quot;sto.TaskRegistry&quot; uuid=&quot;b0963646-8920-4266-9bad-e91c4d19ac2c&quot;&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;13988773-6cab-42c5-a283-7c25122cc03d&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;329c6098-73a0-4d5f-b3dc-b0dca74d6652&quot;&gt;
+          &lt;annotation&gt;D1&lt;/annotation&gt;
+          &lt;clockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockId&gt;
+          &lt;description&gt;Discrete 1&lt;/description&gt;
+          &lt;taskId&gt;_task0&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;cac1d1d4-f2c2-4d03-863a-6b078eb01ecb&quot;&gt;
+            &lt;period&gt;.010000000000000002&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;timeKeeperClockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task0&lt;/identifier&gt;
+        &lt;priority&gt;40&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;bda232f9-9210-4618-9b59-f9782098ed0a&quot;&gt;
+        &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+        &lt;orderIndex&gt;2&lt;/orderIndex&gt;
+        &lt;rates type=&quot;sto.ClassicPeriodicDiscreteRate&quot; uuid=&quot;75cc8072-3fd5-41d1-9d53-4347522a6aef&quot;&gt;
+          &lt;annotation&gt;D2&lt;/annotation&gt;
+          &lt;clockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockId&gt;
+          &lt;colorIndex&gt;1&lt;/colorIndex&gt;
+          &lt;description&gt;Discrete 2&lt;/description&gt;
+          &lt;rateIdx&gt;1&lt;/rateIdx&gt;
+          &lt;taskId&gt;_task1&lt;/taskId&gt;
+          &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;d7393832-4c82-4a73-be9c-60cdf12f8314&quot;&gt;
+            &lt;period&gt;.1&lt;/period&gt;
+            &lt;rateType&gt;ClassicPeriodicDiscrete&lt;/rateType&gt;
+          &lt;/rateSpec&gt;
+        &lt;/rates&gt;
+        &lt;schedulingClockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/schedulingClockId&gt;
+        &lt;tNum&gt;1&lt;/tNum&gt;
+        &lt;timeKeeperClockId&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/timeKeeperClockId&gt;
+        &lt;elementType&gt;Task&lt;/elementType&gt;
+        &lt;identifier&gt;_task1&lt;/identifier&gt;
+        &lt;priority&gt;39&lt;/priority&gt;
+      &lt;/rootTaskHierarchyElements&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;6b33a0cc-cf7f-4203-9aba-e8d3403283ed&quot;&gt;
+        &lt;clockIdentifier&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;680cc5fb-73f1-4048-961a-89d1a418e62b&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task1&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;f36435a4-edcb-4fa3-a426-64dac065b20c&quot;&gt;
+        &lt;clockIdentifier&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/clockIdentifier&gt;
+        &lt;serializedConnectionProperties type=&quot;sto.SerializedConnectionProperties&quot; uuid=&quot;7ba28c4d-6396-49ec-951a-d8978e182ae7&quot;&gt;
+          &lt;orderingImpact&gt;Impacted&lt;/orderingImpact&gt;
+          &lt;targetClockIdentifier&gt;AudioSmartSpeakerOnJetsonNano::defaultTimer&lt;/targetClockIdentifier&gt;
+          &lt;targetTaskIdentifier&gt;_task0&lt;/targetTaskIdentifier&gt;
+        &lt;/serializedConnectionProperties&gt;
+        &lt;taskIdentifier&gt;_task1&lt;/taskIdentifier&gt;
+      &lt;/taskDependencyGraph&gt;
+      &lt;taskingMode&gt;ClassicMultiTasking&lt;/taskingMode&gt;
+    &lt;/taskRegistry&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroInternalMemoryAtStartupUnchecked>true</zeroInternalMemoryAtStartupUnchecked>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="9bf73d58-474a-40a2-bce1-2ce8a7b2fd59"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="90b4e3f4-87c5-4eea-a0d6-a95cd5442051"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="51a928b2-cff9-46f9-807d-1becdc279378"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="713ac458-c421-40cc-9566-3514cb77e9f9">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <dateTimeAtTZero>0.0</dateTimeAtTZero>
+      <fixedStepSize>.010000000000000002</fixedStepSize>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <hasHybridSampleTime>true</hasHybridSampleTime>
+      <isRateGrouped>true</isRateGrouped>
+      <optimizedInitCode>true</optimizedInitCode>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverMode>SOLVER_MODE_MULTITASKING</solverMode>
+      <solverName>FixedStepDiscrete</solverName>
+      <solverType>SOLVER_TYPE_FIXEDSTEP</solverType>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="fd3ddda5-27c3-4925-9ef6-14241dc9499f">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>64</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodLargestAtomicFloat>1</prodLargestAtomicFloat>
+        <prodLargestAtomicInteger>4</prodLargestAtomicInteger>
+        <prodLongLongMode>true</prodLongLongMode>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="727f8cf7-c41b-4adf-816d-0da7c397b682"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="421ff686-58a1-4198-818d-0121e9f5c181"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="7c7f8e0b-b26e-441b-a27e-5883657a8bbd"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="37996cfa-4016-4ed7-9925-b1b6c8d657a9"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="66a3f776-eea9-4d00-929b-c1ac72dea810"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="96d4b583-7a34-49da-8d37-3ffca847d3ad"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="424d4e2a-7db5-4f7f-9bfd-85df40b5b84a">
+      <hasTerminateMethod>true</hasTerminateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="34b981ec-785e-4ef2-ab15-19fbe4ca2e68">
+      <multiRateBlocks>AudioSmartSpeakerOnJetsonNano/Speech Command Recognizer/Compute Spectrogram/Input Buffer</multiRateBlocks>
+      <multiRateBlocks>AudioSmartSpeakerOnJetsonNano/Speech Command Recognizer/Compute Spectrogram/Output Buffer</multiRateBlocks>
+    </periodicEventPortUnsupportedBlockInfo>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="f37af816-709a-4a21-bd96-a1eb7967a7f5">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="983d4e00-20f8-4160-a718-9c5c88569014"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="24ad6cd9-4477-4b1b-9f2c-c02e69552083"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="1afa8435-de33-42d4-ae66-8b312ad3ebe6"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="b3ddd2ae-f652-4831-b55c-144ac3208ecf"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="fe194634-d18e-454e-a13b-55453e70061a"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="07af7d89-6cff-4edc-9cab-c9562c8a00ca">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="6a2e73b6-6811-480f-91dc-609bcbde8289">
+        <p_Name>AudioSmartSpeakerOnJetsonNano</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="76e0ea6b-2bde-4452-8577-1e05613899db">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <sltpContext type="sltp.mm.core.Context" uuid="ddd9dff7-0dd1-4ffc-9c26-44eca517d258">
+      <globalData type="sltp.mm.core.GlobalData" uuid="84a903a5-92bf-41f5-be1a-37455751110a">
+        <dataName>portInput</dataName>
+        <type>RootInport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="ae8099aa-b5d5-4d92-8f06-eaa11972ddb9">
+        <dataName>portOutput</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <globalData type="sltp.mm.core.GlobalData" uuid="bdd4109a-7b44-4838-9307-7bc7f60f3165">
+        <dataName>portspeechCommand</dataName>
+        <type>RootOutport</type>
+      </globalData>
+      <defaultBarrierBehavior type="sltp.mm.core.BarrierBehavior" uuid="cd1ad015-4bdb-4834-a308-be2b585f679e"/>
+      <defaultEventBehavior type="sltp.mm.core.EventBehavior" uuid="c1d622bb-a8b1-44a9-ba85-348057761e68"/>
+      <editorState type="sltp.mm.core.EditorState" uuid="8ed58561-4803-4a82-ace0-94c831973487">
+        <isSynchronized>true</isSynchronized>
+        <panelState type="sltp.mm.core.EditorPanelState" uuid="36091087-4996-458a-9b15-7cc53c3edfe4"/>
+      </editorState>
+      <rootTask type="sltp.mm.core.Task" uuid="b3b4f867-d65e-4d17-92ff-041ca25e3553">
+        <context type="sltp.mm.core.Context" uuid="ddd9dff7-0dd1-4ffc-9c26-44eca517d258"/>
+        <explicit>false</explicit>
+        <name>Default</name>
+        <priority>-2147483648</priority>
+        <subgraph type="sltp.mm.core.Graph" uuid="a5dc695b-925b-4e60-9427-c5e06e08245f">
+          <connections type="sltp.mm.core.Connection" uuid="a4e8eb50-5b11-41e5-8982-67a2a549c363">
+            <dst type="sltp.mm.core.Task" uuid="61311ea1-c919-481c-a566-10fe9b0598f3"/>
+            <src type="sltp.mm.core.Task" uuid="3e447918-5e43-45d4-8eee-f6c1b96067d5"/>
+          </connections>
+          <connections type="sltp.mm.core.Connection" uuid="ca22306c-4e78-48ab-8c7d-20ccbe3c94de">
+            <dst type="sltp.mm.core.Task" uuid="3e447918-5e43-45d4-8eee-f6c1b96067d5"/>
+            <src type="sltp.mm.core.Task" uuid="61311ea1-c919-481c-a566-10fe9b0598f3"/>
+          </connections>
+          <tasks type="sltp.mm.core.Task" uuid="61311ea1-c919-481c-a566-10fe9b0598f3">
+            <context type="sltp.mm.core.Context" uuid="ddd9dff7-0dd1-4ffc-9c26-44eca517d258"/>
+            <explicit>false</explicit>
+            <id>2</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="a4e8eb50-5b11-41e5-8982-67a2a549c363"/>
+            <isTimed>true</isTimed>
+            <name>D1</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="ca22306c-4e78-48ab-8c7d-20ccbe3c94de"/>
+            <priority>40</priority>
+            <rates type="sltp.mm.core.Rate" uuid="e285593e-7f6f-4c40-91c3-ff270e50b99d">
+              <annotation>D1</annotation>
+              <color>-12240129</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.010</identifier>
+              <rateIndex>0</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.010000000000000002</period>
+              </rateSpec>
+              <sti>0</sti>
+            </rates>
+          </tasks>
+          <tasks type="sltp.mm.core.Task" uuid="3e447918-5e43-45d4-8eee-f6c1b96067d5">
+            <context type="sltp.mm.core.Context" uuid="ddd9dff7-0dd1-4ffc-9c26-44eca517d258"/>
+            <explicit>false</explicit>
+            <id>1</id>
+            <inConnections type="sltp.mm.core.Connection" uuid="ca22306c-4e78-48ab-8c7d-20ccbe3c94de"/>
+            <isTimed>true</isTimed>
+            <name>D2</name>
+            <outConnections type="sltp.mm.core.Connection" uuid="a4e8eb50-5b11-41e5-8982-67a2a549c363"/>
+            <priority>39</priority>
+            <rates type="sltp.mm.core.Rate" uuid="7f00994e-addc-4305-a014-2c00f6e9bed9">
+              <annotation>D2</annotation>
+              <color>986198527</color>
+              <hasBlocks>true</hasBlocks>
+              <identifier>ClassicPeriodicDiscrete0.10</identifier>
+              <rateIndex>1</rateIndex>
+              <rateSpec type="sltp.mm.core.RateSpec">
+                <period>.1</period>
+              </rateSpec>
+              <sti>1</sti>
+            </rates>
+          </tasks>
+        </subgraph>
+      </rootTask>
+    </sltpContext>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="eddcb71b-ad4c-43ea-a7a9-f3f6a43c2b55"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="631f0817-c7a8-4b3d-b74c-05d6ff14d8f9">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="98bdc9a1-82df-4d6e-84d8-f55e7e4ec3cd">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="716626bc-3ad9-4aa7-999e-a45bf87b0549">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="709f3a45-17d2-47e6-bfd8-a9e8731eacf8">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="60857655-1553-40d8-923b-3edb2d74ec54"/>
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="6be5061b-c2ac-44ac-9120-9ae4b2c1c77f"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="60857655-1553-40d8-923b-3edb2d74ec54">
+          <dataName>D1</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="709f3a45-17d2-47e6-bfd8-a9e8731eacf8"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>AudioSmartSpeakerOnJetsonNano::defaultTimer</clockId>
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="6be5061b-c2ac-44ac-9120-9ae4b2c1c77f">
+          <dataName>D2</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="709f3a45-17d2-47e6-bfd8-a9e8731eacf8"/>
+          <id type="sto.TaskHierarchyElementId">
+            <clockId>AudioSmartSpeakerOnJetsonNano::defaultTimer</clockId>
+            <id>_task1</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="80369799-3173-486f-a781-294e0b69f1d6"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
